@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    width: 250px;
+    height: 50px;
+    border: 1px solid blue;
+    transition: transform 1000ms;
+}
+
+
+/* .transform{
+    transform: rotate(90deg);
+
+} */
+
+.twelve{
+    position: absolute;
+    top: 330px;
+}
+
+.three{
+    position: absolute;
+    right: 600px;
+
+}
+
+.six{
+    position: absolute;
+    bottom: 330px;
+
+}
+
+.nine{
+    position: absolute;
+    left: 600px;
+
+}
